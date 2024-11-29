@@ -1,0 +1,34 @@
+{
+  "name": "js-utils-sdk",
+  "version": "1.0.0",
+  "description": "A package where you will get react js utility hooks and small components",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunal-Ch-Das-Official/js-utils-sdk.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "typescript",
+    "inputs",
+    "buttons",
+    "hooks"
+  ],
+  "author": "kunal_chandra_das",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kunal-Ch-Das-Official/js-utils-sdk/issues"
+  },
+  "homepage": "https://github.com/Kunal-Ch-Das-Official/js-utils-sdk#readme",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.27.4"
+  }
+}
