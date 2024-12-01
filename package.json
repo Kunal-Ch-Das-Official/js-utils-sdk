@@ -1,6 +1,6 @@
 {
   "name": "js-utils-react",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "description": "A package where you will get react js utility hooks and small components",
   "main": "src/index.tsx",
   "type": "module",

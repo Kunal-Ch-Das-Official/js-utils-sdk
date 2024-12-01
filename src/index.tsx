@@ -1,1 +1,2 @@
-export * from "../src/components/Input";
+import MixedInput from "./components/MixedInput";
+export default MixedInput;
