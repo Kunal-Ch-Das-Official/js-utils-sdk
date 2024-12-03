@@ -1,6 +1,6 @@
 {
   "name": "js-utils-react",
-  "version": "1.1.4",
+  "version": "1.2.5",
   "description": "A package where you will get react js utility hooks and small components",
   "main": "src/index.tsx",
   "type": "module",
@@ -17,7 +17,9 @@
     "typescript",
     "inputs",
     "buttons",
-    "hooks"
+    "hooks",
+    "utility components",
+    "vaidation components"
   ],
   "author": "kunal_chandra_das",
   "license": "MIT",

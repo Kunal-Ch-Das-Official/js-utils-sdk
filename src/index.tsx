@@ -1,2 +1,4 @@
-import MixedInput from "./components/MixedInput";
-export default MixedInput;
+import CharecterInput from "./components/inputs/CharecterInput";
+import EmailInput from "./components/inputs/EmailInput";
+
+export { EmailInput, CharecterInput };

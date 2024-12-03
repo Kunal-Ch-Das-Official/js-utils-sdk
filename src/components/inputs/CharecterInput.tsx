@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction } from "react";
-import "../styles/MixedInput.css";
+import "../../styles/inputs-style/charecterInput.css";
 
-interface MixedInputProps {
+interface CharecterInputProps {
   inputContainerId: string;
   inputFieldsId: string;
   inputType: string;
@@ -9,23 +9,25 @@ interface MixedInputProps {
   placeholderText: string;
   isRequired: boolean;
   targetCatcher: Dispatch<SetStateAction<string | number>>;
-  errorMessage: string | null;
+  errorMessage: string | undefined;
   isNotValid: boolean;
-  inputStyle: string | object;
+  customStyle: string | object;
   fieldName: string;
+  defaultText?: string | number | undefined;
 }
 
-const MixedInput: React.FC<MixedInputProps> = ({
+const CharecterInput: React.FC<CharecterInputProps> = ({
   inputContainerId,
   inputFieldsId,
   inputType,
   labelText,
   placeholderText,
   isRequired,
+  defaultText,
   targetCatcher,
   errorMessage,
   isNotValid,
-  inputStyle,
+  customStyle,
   fieldName,
 }) => {
   return (
@@ -35,8 +37,9 @@ const MixedInput: React.FC<MixedInputProps> = ({
         id={inputFieldsId}
         type={inputType}
         name={fieldName}
+        defaultValue={defaultText}
         autoComplete="off"
-        className={`input ${isNotValid === true ? "errorHappen" : inputStyle}`}
+        className={`input ${isNotValid === true ? "errorHappen" : customStyle}`}
         placeholder={placeholderText}
         onChange={(event) => targetCatcher(event.target.value)}
       />
@@ -50,4 +53,4 @@ const MixedInput: React.FC<MixedInputProps> = ({
   );
 };
 
-export default MixedInput;
+export default CharecterInput;
