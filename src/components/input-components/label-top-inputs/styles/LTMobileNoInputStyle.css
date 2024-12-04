@@ -14,6 +14,9 @@ input[type="number"] {
   padding-left: 10px;
   max-height: 100px;
 }
+.entire_input:focus {
+  outline: #212121 solid 2px;
+}
 
 .number_origin_selector:focus {
   outline: none;

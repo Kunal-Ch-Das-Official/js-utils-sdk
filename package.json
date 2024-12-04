@@ -1,7 +1,7 @@
 {
   "name": "js-utils-react",
   "type": "module",
-  "version": "2.3.7",
+  "version": "2.3.9",
   "description": "A package where you will get react js utility hooks and small components",
   "main": "dist/index.jsx",
   "types": "index.d.ts",

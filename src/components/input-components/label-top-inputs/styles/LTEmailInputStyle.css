@@ -15,8 +15,9 @@
   padding-left: 12px;
 }
 .input:focus {
-  outline: #212121;
+  outline: #212121 solid 2px;
 }
+
 .invalidBorder {
   border: 2px solid rgb(255, 67, 67);
 }
