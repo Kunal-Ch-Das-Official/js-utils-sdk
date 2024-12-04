@@ -1,4 +1,3 @@
-import CharecterInput from "./components/inputs/CharecterInput";
-import EmailInput from "./components/inputs/EmailInput";
+import EmailInput from "./components/input-components/label-top-inputs/modules/LTEmailInput";
 
-export { EmailInput, CharecterInput };
+export { EmailInput };
