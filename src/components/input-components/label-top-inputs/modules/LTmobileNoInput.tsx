@@ -128,7 +128,7 @@ const LTMobileNoInput: React.FC<LTMobileNoInputProps> = ({
           name={fieldName}
           defaultValue={defaultMobileNo}
           autoComplete="off"
-          className={`input`}
+          className="mobile_input"
           placeholder={placeholderText}
           onChange={(event) => setOnlyNumber(event.target.value)}
         />
