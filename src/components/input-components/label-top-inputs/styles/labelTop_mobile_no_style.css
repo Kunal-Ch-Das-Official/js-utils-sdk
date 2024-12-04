@@ -1,0 +1,90 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  appearance: textfield;
+}
+.entire_input {
+  display: inline-flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 10px;
+  max-height: 100px;
+}
+
+.number_origin_selector:focus {
+  outline: none;
+}
+.input_group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.input_group:focus {
+  border: none;
+  outline: none;
+}
+.number_origin_selector {
+  border: none;
+}
+.input {
+  min-height: 35px;
+  border-radius: 10px;
+  min-width: 200px;
+  max-width: 100%;
+  padding: 1px 5px;
+  padding-left: 13px;
+  border: none;
+}
+.input:focus {
+  outline: none;
+  border: none;
+}
+.invalidBorder {
+  border: 2px solid rgb(255, 67, 67);
+}
+.validBorder {
+  border: 2px solid rgb(0, 212, 0);
+}
+.hiddenLabel {
+  display: none;
+}
+.user_label {
+  position: absolute;
+  bottom: 18px;
+  left: -60px;
+  color: #e8e8e800;
+  pointer-events: none;
+  transform: translateY(1rem);
+  transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input:focus ~ label,
+input:valid ~ label {
+  transform: translateY(-50%) scale(0.8);
+  background-color: #212121;
+  padding: 0 16px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.not_valid_message {
+  color: red;
+  font-size: 12px;
+  display: inline-flex;
+  position: absolute;
+  left: -38px;
+}
+.valid_message {
+  color: rgb(0, 177, 0);
+  font-size: 12px;
+  display: inline-flex;
+  position: absolute;
+  left: -38px;
+}
+.initialStateStyle {
+  display: none;
+}

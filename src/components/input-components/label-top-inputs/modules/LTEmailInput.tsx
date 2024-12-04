@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import "../styles/labelTop_email_style.css";
 
-interface EmailInputProps {
+interface LTEmailInputProps {
   inputContainerId: string;
   inputFieldsId: string;
   fieldName: string;
@@ -13,7 +13,7 @@ interface EmailInputProps {
   targetValue: string;
 }
 
-const EmailInput: React.FC<EmailInputProps> = ({
+const LTEmailInput: React.FC<LTEmailInputProps> = ({
   inputContainerId,
   inputFieldsId,
   labelText,
@@ -119,4 +119,4 @@ const EmailInput: React.FC<EmailInputProps> = ({
   );
 };
 
-export default EmailInput;
+export default LTEmailInput;
