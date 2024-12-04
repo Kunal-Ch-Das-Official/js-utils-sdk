@@ -10,8 +10,12 @@
   min-width: 200px;
   max-width: 100%;
   border-radius: 10px;
+  border: 2px solid black;
   padding: 1px 5px;
   padding-left: 12px;
+}
+.input:focus {
+  outline: #212121;
 }
 .invalidBorder {
   border: 2px solid rgb(255, 67, 67);

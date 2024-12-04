@@ -1,9 +1,9 @@
 {
   "name": "js-utils-react",
   "type": "module",
-  "version": "2.3.5",
+  "version": "2.3.7",
   "description": "A package where you will get react js utility hooks and small components",
-  "main": "dist/index.cjs.js",
+  "main": "dist/index.jsx",
   "types": "index.d.ts",
   "scripts": {
     "build": "rollup -c"
