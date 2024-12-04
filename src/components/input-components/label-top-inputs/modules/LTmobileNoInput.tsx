@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
-import "../styles/labelTop_mobile_no_style.css";
+import "../styles/LTMobileNoInputStyle.css";
 
-interface LTmobileNoInputProps {
+interface LTMobileNoInputProps {
   inputContainerId: string;
   inputFieldsId: string;
   fieldName: string;
@@ -12,7 +12,7 @@ interface LTmobileNoInputProps {
   targetCatcher: Dispatch<SetStateAction<string>>;
 }
 
-const LTmobileNoInput: React.FC<LTmobileNoInputProps> = ({
+const LTMobileNoInput: React.FC<LTMobileNoInputProps> = ({
   inputContainerId,
   inputFieldsId,
   labelText,
@@ -152,4 +152,4 @@ const LTmobileNoInput: React.FC<LTmobileNoInputProps> = ({
   );
 };
 
-export default LTmobileNoInput;
+export default LTMobileNoInput;

@@ -1,5 +1,5 @@
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
-import "../styles/labelTop_email_style.css";
+import "../styles/LTEmailInputStyle.css";
 
 interface LTEmailInputProps {
   inputContainerId: string;
